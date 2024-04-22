@@ -1,0 +1,275 @@
+<resources>
+    <string name="app_name">Honeywell Stock take</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="activity_intent_filter_action">com.dwbasicintent1.ACTION</string>
+    <string name="datawedge_intent_key_source">com.symbol.datawedge.source</string>
+    <string name="datawedge_intent_key_label_type">com.symbol.datawedge.label_type</string>
+    <string name="datawedge_intent_key_data">com.symbol.datawedge.data_string</string>
+
+    <string-array name="location_names_array">
+
+    </string-array>
+
+    <string-array name="location_default_array">
+        <item>Archived</item>
+        <item>Dispatch</item>
+        <item>Trailer</item>
+        <item>C16</item>
+        <item>Requisitioned</item>
+        <item>Ordered</item>
+        <item>Received</item>
+        <item>Ex Reef</item>
+        <item>Bokkie</item>
+        <item>Bumblebee</item>
+        <item>Ouvrou</item>
+        <item>Ouma</item>
+        <item>Oupa</item>
+        <item>Optimus</item>
+        <item>Megatron</item>
+        <item>Small Crane</item>
+        <item>Flame 1</item>
+        <item>Flame 2</item>
+        <item>OO Flame</item>
+        <item>OO Ext</item>
+        <item>Bender</item>
+        <item>JR AR 1</item>
+        <item>JR AR 2</item>
+        <item>JR AR 3</item>
+        <item>JR AR 4</item>
+        <item>JR AR 5</item>
+        <item>JR AR 7</item>
+        <item>JR AR 8</item>
+        <item>JR AR 1 - allocated</item>
+        <item>JR AR 2 - allocated</item>
+        <item>JR AR 3 - allocated</item>
+        <item>JR AR 4 - allocated</item>
+        <item>JR AR 5 - allocated</item>
+        <item>JR AR 6 - allocated</item>
+        <item>JR AR 7 - allocated</item>
+        <item>JR AR 8 - allocated</item>
+        <item>COM</item>
+        <item>Holding bay</item>
+        <item>E5</item>
+        <item>E6</item>
+        <item>E7</item>
+        <item>E8</item>
+        <item>E12</item>
+        <item>E12 - allocated</item>
+        <item>E13</item>
+        <item>E14</item>
+        <item>E15</item>
+        <item>F2</item>
+        <item>F2 - allocated</item>
+        <item>A3</item>
+        <item>A3 - allocated</item>
+        <item>A9</item>
+        <item>Bay 1</item>
+        <item>Bay 2</item>
+        <item>Bay 3</item>
+        <item>Bay 4</item>
+        <item>Bay 5</item>
+        <item>Bay 6</item>
+        <item>Bay 7</item>
+        <item>Bay 8</item>
+        <item>Bay 9</item>
+        <item>Bay 10</item>
+        <item>Bay 11</item>
+        <item>Bay 12</item>
+        <item>Domex 1</item>
+        <item>Domex 2</item>
+        <item>Domex 3</item>
+        <item>Domex 4</item>
+        <item>Domex 5</item>
+        <item>Domex 6</item>
+        <item>Domex 7</item>
+        <item>Domex 8</item>
+        <item>Domex 10</item>
+        <item>Strenx 12</item>
+        <item>Domex 1 - allocated</item>
+        <item>Domex 2 - allocated</item>
+        <item>Domex 3 - allocated</item>
+        <item>Domex 4 - allocated</item>
+        <item>Domex 5 - allocated</item>
+        <item>Domex 6 - allocated</item>
+        <item>Domex 7 - allocated</item>
+        <item>Domex 8 - allocated</item>
+        <item>Strenx 12 - allocated</item>
+        <item>Hardox 4</item>
+        <item>Hardox 4 - allocated</item>
+        <item>B2</item>
+        <item>B2 - allocated</item>
+        <item>B3</item>
+        <item>B3 - allocated</item>
+        <item>B10</item>
+        <item>C2</item>
+        <item>C2 - allocated</item>
+        <item>C3</item>
+        <item>C3 - allocated</item>
+        <item>C12</item>
+        <item>C12 A1</item>
+        <item>C12 A2</item>
+        <item>C12 A3</item>
+        <item>C12 A4</item>
+        <item>C12 A5</item>
+        <item>C12 A6</item>
+        <item>C12 A7</item>
+        <item>C12 A9</item>
+        <item>C12 A8</item>
+        <item>C12 A9</item>
+        <item>C12 A10</item>
+        <item>C12 A11</item>
+        <item>C12 A12</item>
+        <item>C12 A13</item>
+        <item>C12 A14</item>
+        <item>C12 A15</item>
+        <item>C12 A16</item>
+        <item>C12 A17</item>
+        <item>C12 A18</item>
+        <item>C12 A19</item>
+        <item>C12 A20</item>
+        <item>C12 A21</item>
+        <item>C12 A22</item>
+        <item>C12 A23</item>
+        <item>C12 A24</item>
+        <item>C12 A25</item>
+        <item>C12 A26</item>
+        <item>C12 A27</item>
+        <item>C12 A28</item>
+        <item>C12 A29</item>
+        <item>C12 A30</item>
+        <item>C13</item><item>C14</item>
+        <item>C15</item>
+        <item>C16</item>
+        <item>C17</item>
+        <item>C18</item>
+        <item>C19</item>
+        <item>C20</item>
+        <item>L1</item>
+        <item>L2</item>
+        <item>L3</item>
+        <item>L4</item>
+        <item>L5</item>
+        <item>L6</item>
+        <item>L7</item>
+        <item>L10</item>
+        <item>D2</item>
+        <item>D2 - allocated</item>
+        <item>D3</item>
+        <item>D3 - allocated</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+        <item>S4</item>
+        <item>S5</item>
+        <item>S6</item>
+        <item>S7</item>
+        <item>S8</item>
+        <item>S9</item>
+        <item>S10</item>
+        <item>S11</item>
+        <item>S12</item>
+        <item>T1</item>
+        <item>T2</item>
+        <item>T3</item>
+        <item>T4</item>
+        <item>T5</item>
+        <item>T6</item>
+        <item>T7</item>
+        <item>T8</item>
+        <item>T9</item>
+        <item>T10</item>
+        <item>P1</item>
+        <item>P2</item>
+        <item>P3</item>
+        <item>P4</item>
+        <item>P5</item>
+        <item>P6</item>
+        <item>P7</item>
+        <item>P8</item>
+        <item>P10</item>
+        <item>P11</item>
+        <item>P12</item>
+        <item>P13</item>
+        <item>P14</item>
+        <item>P15</item>
+        <item>P16</item>
+        <item>P17</item>
+        <item>P18</item>
+        <item>Q1</item>
+        <item>Q2</item>
+        <item>Q3</item>
+        <item>Q4</item>
+        <item>Q5</item>
+        <item>Q6</item>
+        <item>Q7</item>
+        <item>Q8</item>
+        <item>Q11</item>
+        <item>Q12</item>
+        <item>Q13</item>
+        <item>Q14</item>
+        <item>Q15</item>
+        <item>Q16</item>
+        <item>Q17</item>
+        <item>Q18</item>
+        <item>Q19</item>
+        <item>R1</item>
+        <item>R2</item>
+        <item>R3</item>
+        <item>R4</item>
+        <item>R5</item>
+        <item>R6</item>
+        <item>R7</item>
+        <item>R8</item>
+        <item>R9</item>
+        <item>R10</item>
+        <item>X1</item>
+        <item>X2</item>
+        <item>X3</item>
+        <item>X4</item>
+        <item>X5</item>
+        <item>X6</item>
+        <item>X7</item>
+        <item>X8</item>
+        <item>X9</item>
+        <item>X10</item>
+        <item>Y1</item>
+        <item>Y2</item>
+        <item>Y3</item>
+        <item>Y4</item>
+        <item>Y5</item>
+        <item>Y6</item>
+        <item>Y7</item>
+        <item>Y8</item>
+        <item>Y9</item>
+        <item>Y10</item>
+        <item>Z2</item>
+        <item>Z3</item>
+        <item>Z4</item>
+        <item>Z5</item>
+        <item>Z6</item>
+        <item>Z1</item>
+        <item>Z7</item>
+        <item>Z8</item>
+        <item>Z9</item>
+        <item>Z10</item>
+        <item>Pallet02</item>
+        <item>Pallet03</item>
+        <item>Pallet04</item>
+        <item>Pallet05</item>
+        <item>Pallet06</item>
+        <item>Pallet07</item>
+        <item>Pallet08</item>
+        <item>Pallet09</item>
+        <item>Pallet10</item>
+        <item>Pallet11</item>
+        <item>Pallet12</item>
+        <item>Pallet13</item>
+        <item>Can\'t find</item>
+        <item>Under Investigation</item>
+
+    </string-array>
+
+</resources>
