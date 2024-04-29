@@ -141,11 +141,15 @@ class MainActivity : AppCompatActivity() {
                 //        //broadcast start activity
                 val bundle = Bundle()
                 val intent = Intent(this, Bulk::class.java)
-                intent.putStringArrayListExtra("locationNamesList", ArrayList(locationNamesList))
+                intent.putStringArrayListExtra("locationNames", ArrayList(locationNamesList))
                 intent.putExtra("plateValue", plateValue)
+                intent.putExtra("grade", sheetData?.grade)
+                intent.putExtra("length", sheetData?.length)
+                intent.putExtra("width", sheetData?.width)
                 intent.putExtra("name", name)
                 intent.putExtra("level", level)
-                startActivity(intent, bundle)}else {
+                startActivity(intent, bundle)}
+            else {
                 val bundle = Bundle()
                 val intent = Intent(this, Bulk::class.java)
                 intent.putStringArrayListExtra("locationNames", ArrayList(locationNamesList))
@@ -309,7 +313,8 @@ class MainActivity : AppCompatActivity() {
                         // Extract location names from the API response
                         locationNamesList = locations.mapNotNull { it.location }.toMutableList()
                     } else {
-                        Toast.makeText(this, "Response body is empty", Toast.LENGTH_SHORT).show()
+//                        The Api does not currently send the data. Needs to be implemented.
+//                        Toast.makeText(this, "Response body is empty", Toast.LENGTH_SHORT).show()
                         fillLocationDefault()
                     }
                 } else {
@@ -329,7 +334,7 @@ class MainActivity : AppCompatActivity() {
         // Update the locationNamesList with the retrieved or default values
         locationNamesList.clear()
         locationNamesList.addAll(defaultLocationNames)
-        Toast.makeText(baseContext, "Update done", Toast.LENGTH_SHORT).show()
+//        Toast.makeText(baseContext, "Update done", Toast.LENGTH_SHORT).show()
     }
 
     private fun updateStringArrayResource(resourceId: Int, updatedArray: Array<String>) {

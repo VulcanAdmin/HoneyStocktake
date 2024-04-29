@@ -52,9 +52,9 @@ class MainViewModel(private val repository: Repository): ViewModel() {
         }
     }
 
-    fun pushBulk(uniqueId: String, plateValue: String, plateValue2: String, locationValue: String, stockBy: String) {
+    fun pushBulk(uniqueId: String, plateValue: String, plateValue2: String, locationValue: String, stockBy: String, length: Double?, width: Double?) {
         viewModelScope.launch {
-            val response = repository.pushBulk(uniqueId, plateValue, plateValue2, locationValue, stockBy)
+            val response = repository.pushBulk(uniqueId, plateValue, plateValue2, locationValue, stockBy, length, width)
             bulkPost.value = response
         }
     }

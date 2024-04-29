@@ -41,21 +41,33 @@ class Update() : AppCompatActivity(){
         stockBy = bundle!!.getString("stockBy").toString()
         var bulk: Int = 0
         bulk = bundle!!.getInt("bulk")
+        var bLength: Double = 0.0
+        bLength = bundle!!.getDouble("blength")
+        var bWidth: Double = 0.0
+        bWidth = bundle!!.getDouble("bwidth")
+
 
 
         if (bulk == 1){
-            updateBulk(plate, plate2, location, stockBy)
+            updateBulk(plate, plate2, location, stockBy, bLength, bWidth)
         }else {
             updatePlate(plate, length, width, location, stockBy, query)
         }
 
     }
 
-    private fun updateBulk(plate: String, plate2: String, location: String, stockBy: String) {
+    private fun updateBulk(
+        plate: String,
+        plate2: String,
+        location: String,
+        stockBy: String,
+        bLength: Double,
+        bWidth: Double
+    ) {
         val repository = Repository()
         val viewModelFactory = MainViewModelFactory(repository)
         viewModel = ViewModelProvider(this, viewModelFactory).get(MainViewModel::class.java)
-        viewModel.pushBulk(uniqueId, plate, plate2, location, stockBy)
+        viewModel.pushBulk(uniqueId, plate, plate2, location, stockBy, bLength, bWidth)
 
         viewModel. bulkPost.observe(this, Observer { response ->
             if(response.isSuccessful){

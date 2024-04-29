@@ -28,7 +28,7 @@ class Repository {
         return RetrofitInstance.api.getLocations(uniqueId)
     }
 
-    suspend fun pushBulk(uniqueId: String, plateValue: String, plateValue2: String, locationValue: String, stockBy: String): Response<bulk> {
-        return RetrofitInstance.api.pushBulk(uniqueId, plateValue, plateValue2, locationValue, stockBy)
+    suspend fun pushBulk(uniqueId: String, plateValue: String, plateValue2: String, locationValue: String, stockBy: String, length: Double?, width: Double?): Response<bulk> {
+        return RetrofitInstance.api.pushBulk(uniqueId, plateValue, plateValue2, locationValue, stockBy, length, width)
     }
 }

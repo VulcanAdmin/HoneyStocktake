@@ -46,7 +46,9 @@ interface API {
         @Query("p1") plateValue: String,
         @Query("p2") plateValue2: String,
         @Query("p3") locationValue: String,
-        @Query("p4") stockBy: String
+        @Query("p4") stockBy: String,
+        @Query("p5") length: Double?,
+        @Query("p6") width: Double?
     ): Response<bulk>
 
 
