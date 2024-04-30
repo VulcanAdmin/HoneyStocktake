@@ -93,7 +93,7 @@ class Bulk: AppCompatActivity() {
 //        binding.lastID.doAfterTextChanged { editable ->
 //            updateIds()
 //        }
- 
+
 
         // Display name and fill plateValue if provided
         binding.tvUser.text = name ?: "Not Identified"
